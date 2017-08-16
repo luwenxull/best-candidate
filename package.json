@@ -1,0 +1,28 @@
+{
+  "name": "galaxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pack": "./node_modules/.bin/webpack --progress --profile --colors -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luwenxull/galaxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luwenxull/galaxy/issues"
+  },
+  "homepage": "https://github.com/luwenxull/galaxy#readme",
+  "dependencies": {
+    "d3": "^4.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-google": "^0.9.1",
+    "webpack": "^3.5.4"
+  }
+}
