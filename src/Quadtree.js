@@ -40,24 +40,26 @@ export class Quadtree {
       height,
       padding,
     }
-    console.log(this._tree)
+    this._candidates = []
   }
 
   add(number, candidateNum = 1) {
-    console.time('add')
-    for (let i = 0; i < number; i++) {
-      let [x, y, distance] = getBestCandidate(this, candidateNum)
+    for (let i = 0; i < number;) {
+      let candidate = getBestCandidate(this, candidateNum)
+      let [x, y, distance] = candidate
       let validPoint = true
       if (distance && distance < this._config.padding) {
         validPoint = false
+        console.log(distance)
       }
       if (validPoint) {
         this._tree.add({
-          x, y
+          x, y,
         })
+        this._candidates.push(candidate)
+        i++
       }
     }
-    console.timeEnd('add')
   }
 
   renderToOverview(parent) {
