@@ -1,5 +1,5 @@
 {
-  "name": "galaxy",
+  "name": "best-candidate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luwenxull/galaxy.git"
+    "url": "git+https://github.com/luwenxull/best-candidate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/luwenxull/galaxy/issues"
+    "url": "https://github.com/luwenxull/best-candidate/issues"
   },
-  "homepage": "https://github.com/luwenxull/galaxy#readme",
+  "homepage": "https://github.com/luwenxull/best-candidate#readme",
   "dependencies": {
     "d3": "^4.10.0"
   },
