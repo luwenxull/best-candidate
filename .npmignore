@@ -2,6 +2,8 @@
 node_modules/
 test/
 webpack.config.js
+index.html
+.npmignore
 .babelrc
 yarn.lock
 yarn-error.log
