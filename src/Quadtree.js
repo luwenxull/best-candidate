@@ -50,7 +50,6 @@ export class Quadtree {
       let validPoint = true
       if (distance && distance < this._config.padding) {
         validPoint = false
-        console.log(distance)
       }
       if (validPoint) {
         this._tree.add({
