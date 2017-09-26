@@ -61,6 +61,10 @@ export class Quadtree {
     }
   }
 
+  getCandidates() {
+    return this._candidates
+  }
+
   renderToOverview(parent) {
     renderToOverview(parent, this)
   }

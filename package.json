@@ -1,10 +1,11 @@
 {
   "name": "best-candidate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pack": "./node_modules/.bin/webpack --progress --profile --colors -w"
+    "build": "./node_modules/.bin/webpack --progress --profile --colors",
+    "watch": "./node_modules/.bin/webpack --progress --profile --colors -w"
   },
   "repository": {
     "type": "git",
